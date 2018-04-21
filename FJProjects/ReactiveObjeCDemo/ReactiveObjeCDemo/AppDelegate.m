@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <ReactiveObjC.h>
 
 @interface AppDelegate ()
 
