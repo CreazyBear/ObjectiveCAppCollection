@@ -8,6 +8,7 @@ PODS:
     - DACircularProgress (~> 2.3)
     - MBProgressHUD (~> 0.9)
     - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - ReactiveObjC (3.1.0)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -21,6 +22,7 @@ DEPENDENCIES:
   - FJCommon (from `/Users/xiongwei/.cocoapods/repos/FJCommon`)
   - FSCalendar
   - MWPhotoBrowser
+  - ReactiveObjC
   - TSMessages
   - TZImagePickerController
   - YYModel
@@ -33,6 +35,7 @@ SPEC REPOS:
     - HexColors
     - MBProgressHUD
     - MWPhotoBrowser
+    - ReactiveObjC
     - SDWebImage
     - TSMessages
     - TZImagePickerController
@@ -50,12 +53,13 @@ SPEC CHECKSUMS:
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
   TZImagePickerController: c80a189b6e2ca167a4dc56b656fb2557eedea0f7
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 0a19a09a9fb7bc3b596327a8aef9985d67515659
+PODFILE CHECKSUM: 124aa6b43c049dbb4dbc81badf026cf5fe8dcfb4
 
 COCOAPODS: 1.5.0

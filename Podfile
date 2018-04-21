@@ -34,6 +34,11 @@ target 'FJMapDemo' do
     project "./FJProjects/FJMapDemo/FJMapDemo.xcodeproj"
 end
 
+target 'ReactiveObjeCDemo' do
+    project "./FJProjects/ReactiveObjeCDemo/ReactiveObjeCDemo.xcodeproj"
+    pod "ReactiveObjC"
+end
+
 
 
 target 'Habit' do
