@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A5DD8874B238390D49DF75 /* libPods-Habit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 295077FAFC79DE7BD71E6FF0 /* libPods-Habit.a */; };
+		A512A5CF1FA4936E008C06A9 /* BEARDIDIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A512A5CD1FA4936E008C06A9 /* BEARDIDIViewController.m */; };
+		A512A5D01FA4936E008C06A9 /* BEARDIDIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A512A5CE1FA4936E008C06A9 /* BEARDIDIViewController.xib */; };
+		A53032011F9C4A1C00E70A3F /* BEARTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A53032001F9C4A1C00E70A3F /* BEARTextField.m */; };
+		A546DB121FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A546DB101FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.m */; };
+		A546DB131FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546DB111FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.xib */; };
+		A54795071F96410C00FAE037 /* BEARHabitCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54795061F96410C00FAE037 /* BEARHabitCalendarViewController.m */; };
+		A547950A1F96413600FAE037 /* BEARNewHabitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54795091F96413600FAE037 /* BEARNewHabitViewController.m */; };
+		A54B9AC81F9F9142001B7633 /* BEARTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B9AC71F9F9142001B7633 /* BEARTableViewCell.m */; };
+		A55955F31F99025C001EED8D /* BEARDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A55955F21F99025C001EED8D /* BEARDatabaseManager.m */; };
+		A57507301F95117F00E6B3AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A575072F1F95117F00E6B3AC /* AppDelegate.m */; };
+		A57507391F95117F00E6B3AC /* Habit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A57507371F95117F00E6B3AC /* Habit.xcdatamodeld */; };
+		A575073B1F95117F00E6B3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A575073A1F95117F00E6B3AC /* Assets.xcassets */; };
+		A575073E1F95117F00E6B3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A575073C1F95117F00E6B3AC /* LaunchScreen.storyboard */; };
+		A57507411F95117F00E6B3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57507401F95117F00E6B3AC /* main.m */; };
+		A57507491F9511F700E6B3AC /* BEARBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57507481F9511F700E6B3AC /* BEARBaseViewController.m */; };
+		A575074C1F95122F00E6B3AC /* BEARTodayHabitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A575074B1F95122F00E6B3AC /* BEARTodayHabitViewController.m */; };
+		A57507541F95146200E6B3AC /* BEARNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57507531F95146200E6B3AC /* BEARNavigationViewController.m */; };
+		A57507571F9514BD00E6B3AC /* BEARTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57507561F9514BD00E6B3AC /* BEARTabBarController.m */; };
+		A58683151F9E433900E1BD23 /* NSString+BEARExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A58683141F9E433900E1BD23 /* NSString+BEARExtension.m */; };
+		A59EEDA51FA8A1B300E76170 /* BEARHabitData+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A59EED9F1FA8A1B300E76170 /* BEARHabitData+CoreDataClass.m */; };
+		A59EEDA61FA8A1B300E76170 /* BEARHabitData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A59EEDA01FA8A1B300E76170 /* BEARHabitData+CoreDataProperties.m */; };
+		A59EEDA71FA8A1B300E76170 /* BEARHabitItem+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A59EEDA31FA8A1B300E76170 /* BEARHabitItem+CoreDataClass.m */; };
+		A59EEDA81FA8A1B300E76170 /* BEARHabitItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A59EEDA41FA8A1B300E76170 /* BEARHabitItem+CoreDataProperties.m */; };
+		A59EEDAC1FA8AFAE00E76170 /* BEARMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59EEDAA1FA8AFAE00E76170 /* BEARMineViewController.m */; };
+		A59EEDAD1FA8AFAE00E76170 /* BEARMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59EEDAB1FA8AFAE00E76170 /* BEARMineViewController.xib */; };
+		A5A0BC0F208AF9AB00C55DC7 /* Pods-Habit-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BC08208AF9AA00C55DC7 /* Pods-Habit-acknowledgements.markdown */; };
+		A5A0BC10208AF9AB00C55DC7 /* Pods-Habit.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BC09208AF9AA00C55DC7 /* Pods-Habit.debug.xcconfig */; };
+		A5A0BC11208AF9AB00C55DC7 /* Pods-Habit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0BC0A208AF9AA00C55DC7 /* Pods-Habit-dummy.m */; };
+		A5A0BC12208AF9AB00C55DC7 /* Pods-Habit-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BC0B208AF9AA00C55DC7 /* Pods-Habit-frameworks.sh */; };
+		A5A0BC13208AF9AB00C55DC7 /* Pods-Habit.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BC0C208AF9AA00C55DC7 /* Pods-Habit.release.xcconfig */; };
+		A5A0BC14208AF9AB00C55DC7 /* Pods-Habit-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BC0D208AF9AA00C55DC7 /* Pods-Habit-acknowledgements.plist */; };
+		A5A0BC15208AF9AB00C55DC7 /* Pods-Habit-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BC0E208AF9AB00C55DC7 /* Pods-Habit-resources.sh */; };
+		A5A175241FA241DF004AA6B9 /* BEARCheckInProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A175231FA241DF004AA6B9 /* BEARCheckInProgressView.m */; };
+		A5B22E751FADADCF0074E3D3 /* BEARDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B22E741FADADCF0074E3D3 /* BEARDiaryViewController.m */; };
+		A5B22E791FADB0230074E3D3 /* BEARDiaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B22E771FADB0230074E3D3 /* BEARDiaryTableViewCell.m */; };
+		A5B22E7A1FADB0230074E3D3 /* BEARDiaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B22E781FADB0230074E3D3 /* BEARDiaryTableViewCell.xib */; };
+		A5B22E7E1FADB71A0074E3D3 /* BEARDiaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B22E7D1FADB71A0074E3D3 /* BEARDiaryModel.m */; };
+		A5B22E821FADC23C0074E3D3 /* BEARDiaryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B22E801FADC23C0074E3D3 /* BEARDiaryDetailViewController.m */; };
+		A5B22E831FADC23C0074E3D3 /* BEARDiaryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B22E811FADC23C0074E3D3 /* BEARDiaryDetailViewController.xib */; };
+		A5B22E871FADCC340074E3D3 /* BEARDiaryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B22E851FADCC340074E3D3 /* BEARDiaryCollectionViewCell.m */; };
+		A5B22E881FADCC340074E3D3 /* BEARDiaryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B22E861FADCC340074E3D3 /* BEARDiaryCollectionViewCell.xib */; };
+		A5BE5E201FAB4E0000367ED8 /* HabitChat.html in Resources */ = {isa = PBXBuildFile; fileRef = A5BE5E1F1FAB4E0000367ED8 /* HabitChat.html */; };
+		A5BE5E271FAB5AC800367ED8 /* highcharts.js in Resources */ = {isa = PBXBuildFile; fileRef = A5BE5E261FAB5AC700367ED8 /* highcharts.js */; };
+		A5BE5E2A1FAB5BC900367ED8 /* exporting.js in Resources */ = {isa = PBXBuildFile; fileRef = A5BE5E281FAB5BC900367ED8 /* exporting.js */; };
+		A5BE5E2B1FAB5BC900367ED8 /* series-label.js in Resources */ = {isa = PBXBuildFile; fileRef = A5BE5E291FAB5BC900367ED8 /* series-label.js */; };
+		A5BE5E2D1FAB684000367ED8 /* common.js in Resources */ = {isa = PBXBuildFile; fileRef = A5BE5E2C1FAB683F00367ED8 /* common.js */; };
+		A5E1BCE21FADA28A001413F1 /* BEARSandBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E1BCE11FADA28A001413F1 /* BEARSandBoxManager.m */; };
+		A5E67A751FACB58800EC5893 /* BEARMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E67A731FACB58800EC5893 /* BEARMineTableViewCell.m */; };
+		A5E67A761FACB58800EC5893 /* BEARMineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E67A741FACB58800EC5893 /* BEARMineTableViewCell.xib */; };
+		A5E67A7A1FACBEC200EC5893 /* BEARSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E67A781FACBEC200EC5893 /* BEARSettingViewController.m */; };
+		A5E67A7B1FACBEC200EC5893 /* BEARSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E67A791FACBEC200EC5893 /* BEARSettingViewController.xib */; };
+		A5FA93051FA9EDB200B53C1A /* BEARHabitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FA93031FA9EDB200B53C1A /* BEARHabitDetailViewController.m */; };
+		A5FA93061FA9EDB200B53C1A /* BEARHabitDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5FA93041FA9EDB200B53C1A /* BEARHabitDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		295077FAFC79DE7BD71E6FF0 /* libPods-Habit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Habit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A512A5CC1FA4936E008C06A9 /* BEARDIDIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARDIDIViewController.h; sourceTree = "<group>"; };
+		A512A5CD1FA4936E008C06A9 /* BEARDIDIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARDIDIViewController.m; sourceTree = "<group>"; };
+		A512A5CE1FA4936E008C06A9 /* BEARDIDIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARDIDIViewController.xib; sourceTree = "<group>"; };
+		A53031FD1F9C3D8000E70A3F /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		A53031FF1F9C4A1C00E70A3F /* BEARTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARTextField.h; sourceTree = "<group>"; };
+		A53032001F9C4A1C00E70A3F /* BEARTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARTextField.m; sourceTree = "<group>"; };
+		A546DB0F1FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARHabitCalendarTableViewCell.h; sourceTree = "<group>"; };
+		A546DB101FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARHabitCalendarTableViewCell.m; sourceTree = "<group>"; };
+		A546DB111FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARHabitCalendarTableViewCell.xib; sourceTree = "<group>"; };
+		A54795051F96410C00FAE037 /* BEARHabitCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARHabitCalendarViewController.h; sourceTree = "<group>"; };
+		A54795061F96410C00FAE037 /* BEARHabitCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARHabitCalendarViewController.m; sourceTree = "<group>"; };
+		A54795081F96413600FAE037 /* BEARNewHabitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARNewHabitViewController.h; sourceTree = "<group>"; };
+		A54795091F96413600FAE037 /* BEARNewHabitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARNewHabitViewController.m; sourceTree = "<group>"; };
+		A54975471FB0B07800ABA60D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A54B9AC61F9F9142001B7633 /* BEARTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARTableViewCell.h; sourceTree = "<group>"; };
+		A54B9AC71F9F9142001B7633 /* BEARTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARTableViewCell.m; sourceTree = "<group>"; };
+		A55955F11F99025C001EED8D /* BEARDatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARDatabaseManager.h; sourceTree = "<group>"; };
+		A55955F21F99025C001EED8D /* BEARDatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARDatabaseManager.m; sourceTree = "<group>"; };
+		A55955F61F99032C001EED8D /* SingleInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleInstance.h; sourceTree = "<group>"; };
+		A55955F71F990393001EED8D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A575072B1F95117F00E6B3AC /* Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A575072E1F95117F00E6B3AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A575072F1F95117F00E6B3AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A57507381F95117F00E6B3AC /* Habit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Habit.xcdatamodel; sourceTree = "<group>"; };
+		A575073A1F95117F00E6B3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A575073D1F95117F00E6B3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A575073F1F95117F00E6B3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57507401F95117F00E6B3AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57507471F9511F700E6B3AC /* BEARBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARBaseViewController.h; sourceTree = "<group>"; };
+		A57507481F9511F700E6B3AC /* BEARBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARBaseViewController.m; sourceTree = "<group>"; };
+		A575074A1F95122F00E6B3AC /* BEARTodayHabitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARTodayHabitViewController.h; sourceTree = "<group>"; };
+		A575074B1F95122F00E6B3AC /* BEARTodayHabitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARTodayHabitViewController.m; sourceTree = "<group>"; };
+		A57507521F95146200E6B3AC /* BEARNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARNavigationViewController.h; sourceTree = "<group>"; };
+		A57507531F95146200E6B3AC /* BEARNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARNavigationViewController.m; sourceTree = "<group>"; };
+		A57507551F9514BD00E6B3AC /* BEARTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARTabBarController.h; sourceTree = "<group>"; };
+		A57507561F9514BD00E6B3AC /* BEARTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARTabBarController.m; sourceTree = "<group>"; };
+		A581EE641FC91C8E00B7CC18 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A58683131F9E433900E1BD23 /* NSString+BEARExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BEARExtension.h"; sourceTree = "<group>"; };
+		A58683141F9E433900E1BD23 /* NSString+BEARExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BEARExtension.m"; sourceTree = "<group>"; };
+		A59EED9D1FA8A1B300E76170 /* BEARHabitData+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEARHabitData+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A59EED9E1FA8A1B300E76170 /* BEARHabitData+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEARHabitData+CoreDataClass.h"; sourceTree = "<group>"; };
+		A59EED9F1FA8A1B300E76170 /* BEARHabitData+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BEARHabitData+CoreDataClass.m"; sourceTree = "<group>"; };
+		A59EEDA01FA8A1B300E76170 /* BEARHabitData+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BEARHabitData+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A59EEDA11FA8A1B300E76170 /* BEARHabitItem+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEARHabitItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A59EEDA21FA8A1B300E76170 /* BEARHabitItem+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEARHabitItem+CoreDataClass.h"; sourceTree = "<group>"; };
+		A59EEDA31FA8A1B300E76170 /* BEARHabitItem+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BEARHabitItem+CoreDataClass.m"; sourceTree = "<group>"; };
+		A59EEDA41FA8A1B300E76170 /* BEARHabitItem+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BEARHabitItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A59EEDA91FA8AFAE00E76170 /* BEARMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARMineViewController.h; sourceTree = "<group>"; };
+		A59EEDAA1FA8AFAE00E76170 /* BEARMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARMineViewController.m; sourceTree = "<group>"; };
+		A59EEDAB1FA8AFAE00E76170 /* BEARMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARMineViewController.xib; sourceTree = "<group>"; };
+		A5A0BC08208AF9AA00C55DC7 /* Pods-Habit-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "Pods-Habit-acknowledgements.markdown"; path = "../../Pods/Target Support Files/Pods-Habit/Pods-Habit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5A0BC09208AF9AA00C55DC7 /* Pods-Habit.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-Habit.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Habit/Pods-Habit.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A0BC0A208AF9AA00C55DC7 /* Pods-Habit-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Pods-Habit-dummy.m"; path = "../../Pods/Target Support Files/Pods-Habit/Pods-Habit-dummy.m"; sourceTree = "<group>"; };
+		A5A0BC0B208AF9AA00C55DC7 /* Pods-Habit-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-Habit-frameworks.sh"; path = "../../Pods/Target Support Files/Pods-Habit/Pods-Habit-frameworks.sh"; sourceTree = "<group>"; };
+		A5A0BC0C208AF9AA00C55DC7 /* Pods-Habit.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-Habit.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-Habit/Pods-Habit.release.xcconfig"; sourceTree = "<group>"; };
+		A5A0BC0D208AF9AA00C55DC7 /* Pods-Habit-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pods-Habit-acknowledgements.plist"; path = "../../Pods/Target Support Files/Pods-Habit/Pods-Habit-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5A0BC0E208AF9AB00C55DC7 /* Pods-Habit-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-Habit-resources.sh"; path = "../../Pods/Target Support Files/Pods-Habit/Pods-Habit-resources.sh"; sourceTree = "<group>"; };
+		A5A175221FA241DF004AA6B9 /* BEARCheckInProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARCheckInProgressView.h; sourceTree = "<group>"; };
+		A5A175231FA241DF004AA6B9 /* BEARCheckInProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARCheckInProgressView.m; sourceTree = "<group>"; };
+		A5B22E731FADADCF0074E3D3 /* BEARDiaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARDiaryViewController.h; sourceTree = "<group>"; };
+		A5B22E741FADADCF0074E3D3 /* BEARDiaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARDiaryViewController.m; sourceTree = "<group>"; };
+		A5B22E761FADB0230074E3D3 /* BEARDiaryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARDiaryTableViewCell.h; sourceTree = "<group>"; };
+		A5B22E771FADB0230074E3D3 /* BEARDiaryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARDiaryTableViewCell.m; sourceTree = "<group>"; };
+		A5B22E781FADB0230074E3D3 /* BEARDiaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARDiaryTableViewCell.xib; sourceTree = "<group>"; };
+		A5B22E7C1FADB71A0074E3D3 /* BEARDiaryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARDiaryModel.h; sourceTree = "<group>"; };
+		A5B22E7D1FADB71A0074E3D3 /* BEARDiaryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARDiaryModel.m; sourceTree = "<group>"; };
+		A5B22E7F1FADC23C0074E3D3 /* BEARDiaryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARDiaryDetailViewController.h; sourceTree = "<group>"; };
+		A5B22E801FADC23C0074E3D3 /* BEARDiaryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARDiaryDetailViewController.m; sourceTree = "<group>"; };
+		A5B22E811FADC23C0074E3D3 /* BEARDiaryDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARDiaryDetailViewController.xib; sourceTree = "<group>"; };
+		A5B22E841FADCC340074E3D3 /* BEARDiaryCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARDiaryCollectionViewCell.h; sourceTree = "<group>"; };
+		A5B22E851FADCC340074E3D3 /* BEARDiaryCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARDiaryCollectionViewCell.m; sourceTree = "<group>"; };
+		A5B22E861FADCC340074E3D3 /* BEARDiaryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARDiaryCollectionViewCell.xib; sourceTree = "<group>"; };
+		A5BE5E1F1FAB4E0000367ED8 /* HabitChat.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = HabitChat.html; sourceTree = "<group>"; };
+		A5BE5E261FAB5AC700367ED8 /* highcharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.js; sourceTree = "<group>"; };
+		A5BE5E281FAB5BC900367ED8 /* exporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.js; sourceTree = "<group>"; };
+		A5BE5E291FAB5BC900367ED8 /* series-label.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "series-label.js"; sourceTree = "<group>"; };
+		A5BE5E2C1FAB683F00367ED8 /* common.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = common.js; sourceTree = "<group>"; };
+		A5D09C311F991C0B00A46F4D /* Habit 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Habit 2.xcdatamodel"; sourceTree = "<group>"; };
+		A5E1BCE01FADA28A001413F1 /* BEARSandBoxManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARSandBoxManager.h; sourceTree = "<group>"; };
+		A5E1BCE11FADA28A001413F1 /* BEARSandBoxManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARSandBoxManager.m; sourceTree = "<group>"; };
+		A5E67A721FACB58800EC5893 /* BEARMineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARMineTableViewCell.h; sourceTree = "<group>"; };
+		A5E67A731FACB58800EC5893 /* BEARMineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARMineTableViewCell.m; sourceTree = "<group>"; };
+		A5E67A741FACB58800EC5893 /* BEARMineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARMineTableViewCell.xib; sourceTree = "<group>"; };
+		A5E67A771FACBEC200EC5893 /* BEARSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARSettingViewController.h; sourceTree = "<group>"; };
+		A5E67A781FACBEC200EC5893 /* BEARSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARSettingViewController.m; sourceTree = "<group>"; };
+		A5E67A791FACBEC200EC5893 /* BEARSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARSettingViewController.xib; sourceTree = "<group>"; };
+		A5FA93021FA9EDB200B53C1A /* BEARHabitDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEARHabitDetailViewController.h; sourceTree = "<group>"; };
+		A5FA93031FA9EDB200B53C1A /* BEARHabitDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEARHabitDetailViewController.m; sourceTree = "<group>"; };
+		A5FA93041FA9EDB200B53C1A /* BEARHabitDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BEARHabitDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57507281F95117F00E6B3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A5DD8874B238390D49DF75 /* libPods-Habit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573F58E29F597611C3FF8665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A54975471FB0B07800ABA60D /* MessageUI.framework */,
+				295077FAFC79DE7BD71E6FF0 /* libPods-Habit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A53031FE1F9C4A0500E70A3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A53031FF1F9C4A1C00E70A3F /* BEARTextField.h */,
+				A53032001F9C4A1C00E70A3F /* BEARTextField.m */,
+				A5A175221FA241DF004AA6B9 /* BEARCheckInProgressView.h */,
+				A5A175231FA241DF004AA6B9 /* BEARCheckInProgressView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A54B9AC51F9F9121001B7633 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5B22E761FADB0230074E3D3 /* BEARDiaryTableViewCell.h */,
+				A5B22E771FADB0230074E3D3 /* BEARDiaryTableViewCell.m */,
+				A5B22E781FADB0230074E3D3 /* BEARDiaryTableViewCell.xib */,
+				A54B9AC61F9F9142001B7633 /* BEARTableViewCell.h */,
+				A54B9AC71F9F9142001B7633 /* BEARTableViewCell.m */,
+				A546DB0F1FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.h */,
+				A546DB101FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.m */,
+				A546DB111FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.xib */,
+				A5E67A721FACB58800EC5893 /* BEARMineTableViewCell.h */,
+				A5E67A731FACB58800EC5893 /* BEARMineTableViewCell.m */,
+				A5E67A741FACB58800EC5893 /* BEARMineTableViewCell.xib */,
+				A5B22E841FADCC340074E3D3 /* BEARDiaryCollectionViewCell.h */,
+				A5B22E851FADCC340074E3D3 /* BEARDiaryCollectionViewCell.m */,
+				A5B22E861FADCC340074E3D3 /* BEARDiaryCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A55955EE1F9901F6001EED8D /* ManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				A59EED9D1FA8A1B300E76170 /* BEARHabitData+CoreDataProperties.h */,
+				A59EED9E1FA8A1B300E76170 /* BEARHabitData+CoreDataClass.h */,
+				A59EED9F1FA8A1B300E76170 /* BEARHabitData+CoreDataClass.m */,
+				A59EEDA01FA8A1B300E76170 /* BEARHabitData+CoreDataProperties.m */,
+				A59EEDA11FA8A1B300E76170 /* BEARHabitItem+CoreDataProperties.h */,
+				A59EEDA21FA8A1B300E76170 /* BEARHabitItem+CoreDataClass.h */,
+				A59EEDA31FA8A1B300E76170 /* BEARHabitItem+CoreDataClass.m */,
+				A59EEDA41FA8A1B300E76170 /* BEARHabitItem+CoreDataProperties.m */,
+			);
+			path = ManagedObject;
+			sourceTree = "<group>";
+		};
+		A55955F01F99022C001EED8D /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				A55955F11F99025C001EED8D /* BEARDatabaseManager.h */,
+				A55955F21F99025C001EED8D /* BEARDatabaseManager.m */,
+			);
+			path = DataBaseManager;
+			sourceTree = "<group>";
+		};
+		A55955F41F9902C4001EED8D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A58683161F9E433F00E1BD23 /* Extension */,
+				A53031FE1F9C4A0500E70A3F /* Views */,
+				A55955F51F9902F1001EED8D /* Macro */,
+				A5E1BCE01FADA28A001413F1 /* BEARSandBoxManager.h */,
+				A5E1BCE11FADA28A001413F1 /* BEARSandBoxManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A55955F51F9902F1001EED8D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				A55955F61F99032C001EED8D /* SingleInstance.h */,
+				A53031FD1F9C3D8000E70A3F /* Common.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		A57507221F95117F00E6B3AC = {
+			isa = PBXGroup;
+			children = (
+				A575072D1F95117F00E6B3AC /* Habit */,
+				A575072C1F95117F00E6B3AC /* Products */,
+				A69CC5432C7F784102242208 /* Pods */,
+				573F58E29F597611C3FF8665 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A575072C1F95117F00E6B3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A575072B1F95117F00E6B3AC /* Habit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A575072D1F95117F00E6B3AC /* Habit */ = {
+			isa = PBXGroup;
+			children = (
+				A54B9AC51F9F9121001B7633 /* Cell */,
+				A55955F41F9902C4001EED8D /* Utils */,
+				A57507511F95141000E6B3AC /* NavigationFrame */,
+				A57507501F95139200E6B3AC /* ViewController */,
+				A575074F1F95138700E6B3AC /* Data */,
+				A575074E1F95137200E6B3AC /* Resource */,
+				A575074D1F95132800E6B3AC /* LaunchStuff */,
+			);
+			path = Habit;
+			sourceTree = "<group>";
+		};
+		A575074D1F95132800E6B3AC /* LaunchStuff */ = {
+			isa = PBXGroup;
+			children = (
+				A575073F1F95117F00E6B3AC /* Info.plist */,
+				A57507401F95117F00E6B3AC /* main.m */,
+				A575072E1F95117F00E6B3AC /* AppDelegate.h */,
+				A575072F1F95117F00E6B3AC /* AppDelegate.m */,
+				A575073C1F95117F00E6B3AC /* LaunchScreen.storyboard */,
+				A55955F71F990393001EED8D /* PrefixHeader.pch */,
+			);
+			name = LaunchStuff;
+			sourceTree = "<group>";
+		};
+		A575074E1F95137200E6B3AC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE5E211FAB504800367ED8 /* Charts */,
+				A575073A1F95117F00E6B3AC /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A575074F1F95138700E6B3AC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5B22E7B1FADB7090074E3D3 /* Model */,
+				A55955F01F99022C001EED8D /* DataBaseManager */,
+				A55955EE1F9901F6001EED8D /* ManagedObject */,
+				A57507371F95117F00E6B3AC /* Habit.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A57507501F95139200E6B3AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A57507471F9511F700E6B3AC /* BEARBaseViewController.h */,
+				A57507481F9511F700E6B3AC /* BEARBaseViewController.m */,
+				A575074A1F95122F00E6B3AC /* BEARTodayHabitViewController.h */,
+				A575074B1F95122F00E6B3AC /* BEARTodayHabitViewController.m */,
+				A54795051F96410C00FAE037 /* BEARHabitCalendarViewController.h */,
+				A54795061F96410C00FAE037 /* BEARHabitCalendarViewController.m */,
+				A54795081F96413600FAE037 /* BEARNewHabitViewController.h */,
+				A54795091F96413600FAE037 /* BEARNewHabitViewController.m */,
+				A512A5CC1FA4936E008C06A9 /* BEARDIDIViewController.h */,
+				A512A5CD1FA4936E008C06A9 /* BEARDIDIViewController.m */,
+				A512A5CE1FA4936E008C06A9 /* BEARDIDIViewController.xib */,
+				A59EEDA91FA8AFAE00E76170 /* BEARMineViewController.h */,
+				A59EEDAA1FA8AFAE00E76170 /* BEARMineViewController.m */,
+				A59EEDAB1FA8AFAE00E76170 /* BEARMineViewController.xib */,
+				A5FA93021FA9EDB200B53C1A /* BEARHabitDetailViewController.h */,
+				A5FA93031FA9EDB200B53C1A /* BEARHabitDetailViewController.m */,
+				A5FA93041FA9EDB200B53C1A /* BEARHabitDetailViewController.xib */,
+				A5E67A771FACBEC200EC5893 /* BEARSettingViewController.h */,
+				A5E67A781FACBEC200EC5893 /* BEARSettingViewController.m */,
+				A5E67A791FACBEC200EC5893 /* BEARSettingViewController.xib */,
+				A5B22E731FADADCF0074E3D3 /* BEARDiaryViewController.h */,
+				A5B22E741FADADCF0074E3D3 /* BEARDiaryViewController.m */,
+				A5B22E7F1FADC23C0074E3D3 /* BEARDiaryDetailViewController.h */,
+				A5B22E801FADC23C0074E3D3 /* BEARDiaryDetailViewController.m */,
+				A5B22E811FADC23C0074E3D3 /* BEARDiaryDetailViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A57507511F95141000E6B3AC /* NavigationFrame */ = {
+			isa = PBXGroup;
+			children = (
+				A57507521F95146200E6B3AC /* BEARNavigationViewController.h */,
+				A57507531F95146200E6B3AC /* BEARNavigationViewController.m */,
+				A57507551F9514BD00E6B3AC /* BEARTabBarController.h */,
+				A57507561F9514BD00E6B3AC /* BEARTabBarController.m */,
+			);
+			path = NavigationFrame;
+			sourceTree = "<group>";
+		};
+		A58683161F9E433F00E1BD23 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A58683131F9E433900E1BD23 /* NSString+BEARExtension.h */,
+				A58683141F9E433900E1BD23 /* NSString+BEARExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A5B22E7B1FADB7090074E3D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5B22E7C1FADB71A0074E3D3 /* BEARDiaryModel.h */,
+				A5B22E7D1FADB71A0074E3D3 /* BEARDiaryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5BE5E211FAB504800367ED8 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE5E2C1FAB683F00367ED8 /* common.js */,
+				A5BE5E281FAB5BC900367ED8 /* exporting.js */,
+				A5BE5E291FAB5BC900367ED8 /* series-label.js */,
+				A5BE5E261FAB5AC700367ED8 /* highcharts.js */,
+				A5BE5E1F1FAB4E0000367ED8 /* HabitChat.html */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		A69CC5432C7F784102242208 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0BC08208AF9AA00C55DC7 /* Pods-Habit-acknowledgements.markdown */,
+				A5A0BC0D208AF9AA00C55DC7 /* Pods-Habit-acknowledgements.plist */,
+				A5A0BC0A208AF9AA00C55DC7 /* Pods-Habit-dummy.m */,
+				A5A0BC0B208AF9AA00C55DC7 /* Pods-Habit-frameworks.sh */,
+				A5A0BC0E208AF9AB00C55DC7 /* Pods-Habit-resources.sh */,
+				A5A0BC09208AF9AA00C55DC7 /* Pods-Habit.debug.xcconfig */,
+				A5A0BC0C208AF9AA00C55DC7 /* Pods-Habit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A575072A1F95117F00E6B3AC /* Habit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57507441F95117F00E6B3AC /* Build configuration list for PBXNativeTarget "Habit" */;
+			buildPhases = (
+				6B1500028DB02DF510C3EFD3 /* [CP] Check Pods Manifest.lock */,
+				A57507271F95117F00E6B3AC /* Sources */,
+				A57507281F95117F00E6B3AC /* Frameworks */,
+				A57507291F95117F00E6B3AC /* Resources */,
+				E65527708E58FB83D3CE116F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Habit;
+			productName = Habit;
+			productReference = A575072B1F95117F00E6B3AC /* Habit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57507231F95117F00E6B3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Bear;
+				TargetAttributes = {
+					A575072A1F95117F00E6B3AC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A57507261F95117F00E6B3AC /* Build configuration list for PBXProject "Habit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = A57507221F95117F00E6B3AC;
+			productRefGroup = A575072C1F95117F00E6B3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A575072A1F95117F00E6B3AC /* Habit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57507291F95117F00E6B3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE5E2D1FAB684000367ED8 /* common.js in Resources */,
+				A512A5D01FA4936E008C06A9 /* BEARDIDIViewController.xib in Resources */,
+				A59EEDAD1FA8AFAE00E76170 /* BEARMineViewController.xib in Resources */,
+				A5B22E831FADC23C0074E3D3 /* BEARDiaryDetailViewController.xib in Resources */,
+				A5BE5E201FAB4E0000367ED8 /* HabitChat.html in Resources */,
+				A5E67A761FACB58800EC5893 /* BEARMineTableViewCell.xib in Resources */,
+				A5E67A7B1FACBEC200EC5893 /* BEARSettingViewController.xib in Resources */,
+				A5BE5E2A1FAB5BC900367ED8 /* exporting.js in Resources */,
+				A5B22E7A1FADB0230074E3D3 /* BEARDiaryTableViewCell.xib in Resources */,
+				A5A0BC0F208AF9AB00C55DC7 /* Pods-Habit-acknowledgements.markdown in Resources */,
+				A575073E1F95117F00E6B3AC /* LaunchScreen.storyboard in Resources */,
+				A5B22E881FADCC340074E3D3 /* BEARDiaryCollectionViewCell.xib in Resources */,
+				A546DB131FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.xib in Resources */,
+				A5A0BC15208AF9AB00C55DC7 /* Pods-Habit-resources.sh in Resources */,
+				A5A0BC12208AF9AB00C55DC7 /* Pods-Habit-frameworks.sh in Resources */,
+				A5BE5E2B1FAB5BC900367ED8 /* series-label.js in Resources */,
+				A5BE5E271FAB5AC800367ED8 /* highcharts.js in Resources */,
+				A5A0BC13208AF9AB00C55DC7 /* Pods-Habit.release.xcconfig in Resources */,
+				A5FA93061FA9EDB200B53C1A /* BEARHabitDetailViewController.xib in Resources */,
+				A5A0BC10208AF9AB00C55DC7 /* Pods-Habit.debug.xcconfig in Resources */,
+				A575073B1F95117F00E6B3AC /* Assets.xcassets in Resources */,
+				A5A0BC14208AF9AB00C55DC7 /* Pods-Habit-acknowledgements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B1500028DB02DF510C3EFD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Habit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65527708E58FB83D3CE116F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../../Pods/Target Support Files/Pods-Habit/Pods-Habit-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FJCommon/FJCommon.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundError.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundError@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundErrorIcon.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundErrorIcon@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundMessage.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundMessage@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccess.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccess@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccessIcon.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccessIcon@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarning.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarning@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarningIcon.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarningIcon@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationButtonBackground.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationButtonBackground@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/TSMessagesDefaultDesign.json",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FJCommon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundMessage.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundMessage@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccess.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccess@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarning.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarning@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TSMessagesDefaultDesign.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Habit/Pods-Habit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57507271F95117F00E6B3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A512A5CF1FA4936E008C06A9 /* BEARDIDIViewController.m in Sources */,
+				A57507541F95146200E6B3AC /* BEARNavigationViewController.m in Sources */,
+				A59EEDA51FA8A1B300E76170 /* BEARHabitData+CoreDataClass.m in Sources */,
+				A5A0BC11208AF9AB00C55DC7 /* Pods-Habit-dummy.m in Sources */,
+				A5B22E821FADC23C0074E3D3 /* BEARDiaryDetailViewController.m in Sources */,
+				A59EEDA61FA8A1B300E76170 /* BEARHabitData+CoreDataProperties.m in Sources */,
+				A546DB121FA77B8300BB1B3A /* BEARHabitCalendarTableViewCell.m in Sources */,
+				A5E67A7A1FACBEC200EC5893 /* BEARSettingViewController.m in Sources */,
+				A547950A1F96413600FAE037 /* BEARNewHabitViewController.m in Sources */,
+				A57507391F95117F00E6B3AC /* Habit.xcdatamodeld in Sources */,
+				A59EEDA81FA8A1B300E76170 /* BEARHabitItem+CoreDataProperties.m in Sources */,
+				A5E67A751FACB58800EC5893 /* BEARMineTableViewCell.m in Sources */,
+				A54B9AC81F9F9142001B7633 /* BEARTableViewCell.m in Sources */,
+				A5B22E7E1FADB71A0074E3D3 /* BEARDiaryModel.m in Sources */,
+				A53032011F9C4A1C00E70A3F /* BEARTextField.m in Sources */,
+				A575074C1F95122F00E6B3AC /* BEARTodayHabitViewController.m in Sources */,
+				A57507571F9514BD00E6B3AC /* BEARTabBarController.m in Sources */,
+				A57507411F95117F00E6B3AC /* main.m in Sources */,
+				A54795071F96410C00FAE037 /* BEARHabitCalendarViewController.m in Sources */,
+				A59EEDA71FA8A1B300E76170 /* BEARHabitItem+CoreDataClass.m in Sources */,
+				A5A175241FA241DF004AA6B9 /* BEARCheckInProgressView.m in Sources */,
+				A5B22E751FADADCF0074E3D3 /* BEARDiaryViewController.m in Sources */,
+				A57507301F95117F00E6B3AC /* AppDelegate.m in Sources */,
+				A59EEDAC1FA8AFAE00E76170 /* BEARMineViewController.m in Sources */,
+				A58683151F9E433900E1BD23 /* NSString+BEARExtension.m in Sources */,
+				A55955F31F99025C001EED8D /* BEARDatabaseManager.m in Sources */,
+				A5B22E871FADCC340074E3D3 /* BEARDiaryCollectionViewCell.m in Sources */,
+				A5FA93051FA9EDB200B53C1A /* BEARHabitDetailViewController.m in Sources */,
+				A57507491F9511F700E6B3AC /* BEARBaseViewController.m in Sources */,
+				A5B22E791FADB0230074E3D3 /* BEARDiaryTableViewCell.m in Sources */,
+				A5E1BCE21FADA28A001413F1 /* BEARSandBoxManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A575073C1F95117F00E6B3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A575073D1F95117F00E6B3AC /* Base */,
+				A581EE641FC91C8E00B7CC18 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57507421F95117F00E6B3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A57507431F95117F00E6B3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57507451F95117F00E6B3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A0BC09208AF9AA00C55DC7 /* Pods-Habit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Habit/PrefixHeader.pch";
+				INFOPLIST_FILE = Habit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.Habit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A57507461F95117F00E6B3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A0BC0C208AF9AA00C55DC7 /* Pods-Habit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Habit/PrefixHeader.pch";
+				INFOPLIST_FILE = Habit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.Habit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57507261F95117F00E6B3AC /* Build configuration list for PBXProject "Habit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57507421F95117F00E6B3AC /* Debug */,
+				A57507431F95117F00E6B3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57507441F95117F00E6B3AC /* Build configuration list for PBXNativeTarget "Habit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57507451F95117F00E6B3AC /* Debug */,
+				A57507461F95117F00E6B3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A57507371F95117F00E6B3AC /* Habit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5D09C311F991C0B00A46F4D /* Habit 2.xcdatamodel */,
+				A57507381F95117F00E6B3AC /* Habit.xcdatamodel */,
+			);
+			currentVersion = A57507381F95117F00E6B3AC /* Habit.xcdatamodel */;
+			path = Habit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A57507231F95117F00E6B3AC /* Project object */;
+}

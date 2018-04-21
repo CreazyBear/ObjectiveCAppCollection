@@ -29,3 +29,20 @@ end
 target 'FJCommonProject' do
     project "#{$repos}FJCommon/FJCommonProject/FJCommonProject.xcodeproj"
 end
+
+target 'FJMapDemo' do
+    project "./FJProjects/FJMapDemo/FJMapDemo.xcodeproj"
+end
+
+
+
+target 'Habit' do
+    project "./FJProjects/Habit/Habit.xcodeproj"
+    pod 'FSCalendar'
+    pod 'TSMessages'
+    pod 'YYText'
+    pod 'TZImagePickerController'
+    pod 'MWPhotoBrowser'
+    pod 'YYModel'
+    pod 'FJCommon', :path=>"#{$repos}FJCommon"
+end

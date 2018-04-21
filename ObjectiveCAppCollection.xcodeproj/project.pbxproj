@@ -16,14 +16,6 @@
 		A52CFE73208AD2AD000D4188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFE72208AD2AD000D4188 /* main.m */; };
 		A52CFE7D208AD2AD000D4188 /* ObjectiveCAppCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFE7C208AD2AD000D4188 /* ObjectiveCAppCollectionTests.m */; };
 		A52CFE88208AD2AD000D4188 /* ObjectiveCAppCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFE87208AD2AD000D4188 /* ObjectiveCAppCollectionUITests.m */; };
-		A5A0BBF1208AECFB00C55DC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0BBF0208AECFB00C55DC7 /* AppDelegate.m */; };
-		A5A0BBF4208AECFB00C55DC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0BBF3208AECFB00C55DC7 /* ViewController.m */; };
-		A5A0BBF7208AECFB00C55DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BBF5208AECFB00C55DC7 /* Main.storyboard */; };
-		A5A0BBF9208AECFC00C55DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BBF8208AECFC00C55DC7 /* Assets.xcassets */; };
-		A5A0BBFC208AECFC00C55DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0BBFA208AECFC00C55DC7 /* LaunchScreen.storyboard */; };
-		A5A0BBFF208AECFC00C55DC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0BBFE208AECFC00C55DC7 /* main.m */; };
-		A5A0BC05208AEDAF00C55DC7 /* FJMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0BC03208AEDAF00C55DC7 /* FJMKAnnotation.m */; };
-		A5A0BC07208AEE4D00C55DC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0BC06208AEE4D00C55DC7 /* MapKit.framework */; };
 		BE9718B78D41E7E9AE679090 /* libPods-ObjectiveCAppCollectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA40E1CF5249A6A5F7A21D3 /* libPods-ObjectiveCAppCollectionTests.a */; };
 		E7C2F1B13D1C6BEA8B1E2D9F /* libPods-ObjectiveCAppCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F6C234A95C5CA3F15249C8 /* libPods-ObjectiveCAppCollection.a */; };
 /* End PBXBuildFile section */
@@ -65,18 +57,6 @@
 		A52CFE83208AD2AD000D4188 /* ObjectiveCAppCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCAppCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52CFE87208AD2AD000D4188 /* ObjectiveCAppCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCAppCollectionUITests.m; sourceTree = "<group>"; };
 		A52CFE89208AD2AD000D4188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5A0BBED208AECFB00C55DC7 /* FJMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A0BBEF208AECFB00C55DC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A5A0BBF0208AECFB00C55DC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5A0BBF2208AECFB00C55DC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5A0BBF3208AECFB00C55DC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A5A0BBF6208AECFB00C55DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5A0BBF8208AECFC00C55DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5A0BBFB208AECFC00C55DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5A0BBFD208AECFC00C55DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5A0BBFE208AECFC00C55DC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5A0BC03208AEDAF00C55DC7 /* FJMKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJMKAnnotation.m; sourceTree = "<group>"; };
-		A5A0BC04208AEDAF00C55DC7 /* FJMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJMKAnnotation.h; sourceTree = "<group>"; };
 		A5A0BC06208AEE4D00C55DC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AE6F1E7FF6607F62223A2DFD /* Pods-ObjectiveCAppCollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCAppCollectionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveCAppCollectionUITests/Pods-ObjectiveCAppCollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C14F59246840D1C700B92E2F /* Pods-ObjectiveCAppCollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCAppCollectionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveCAppCollectionTests/Pods-ObjectiveCAppCollectionTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,14 +91,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5A0BBEA208AECFB00C55DC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A0BC07208AEE4D00C55DC7 /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -128,7 +100,6 @@
 				A52CFE62208AD2AB000D4188 /* ObjectiveCAppCollection */,
 				A52CFE7B208AD2AD000D4188 /* ObjectiveCAppCollectionTests */,
 				A52CFE86208AD2AD000D4188 /* ObjectiveCAppCollectionUITests */,
-				A5A0BBEE208AECFB00C55DC7 /* FJMapDemo */,
 				A52CFE61208AD2AB000D4188 /* Products */,
 				E36059555DD67C47F3D3ABDD /* Pods */,
 				C2CCC1AE4792DAAE57AA3B62 /* Frameworks */,
@@ -141,7 +112,6 @@
 				A52CFE60208AD2AB000D4188 /* ObjectiveCAppCollection.app */,
 				A52CFE78208AD2AD000D4188 /* ObjectiveCAppCollectionTests.xctest */,
 				A52CFE83208AD2AD000D4188 /* ObjectiveCAppCollectionUITests.xctest */,
-				A5A0BBED208AECFB00C55DC7 /* FJMapDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,24 +148,6 @@
 				A52CFE89208AD2AD000D4188 /* Info.plist */,
 			);
 			path = ObjectiveCAppCollectionUITests;
-			sourceTree = "<group>";
-		};
-		A5A0BBEE208AECFB00C55DC7 /* FJMapDemo */ = {
-			isa = PBXGroup;
-			children = (
-				A5A0BC04208AEDAF00C55DC7 /* FJMKAnnotation.h */,
-				A5A0BC03208AEDAF00C55DC7 /* FJMKAnnotation.m */,
-				A5A0BBEF208AECFB00C55DC7 /* AppDelegate.h */,
-				A5A0BBF0208AECFB00C55DC7 /* AppDelegate.m */,
-				A5A0BBF2208AECFB00C55DC7 /* ViewController.h */,
-				A5A0BBF3208AECFB00C55DC7 /* ViewController.m */,
-				A5A0BBF5208AECFB00C55DC7 /* Main.storyboard */,
-				A5A0BBF8208AECFC00C55DC7 /* Assets.xcassets */,
-				A5A0BBFA208AECFC00C55DC7 /* LaunchScreen.storyboard */,
-				A5A0BBFD208AECFC00C55DC7 /* Info.plist */,
-				A5A0BBFE208AECFC00C55DC7 /* main.m */,
-			);
-			path = FJMapDemo;
 			sourceTree = "<group>";
 		};
 		C2CCC1AE4792DAAE57AA3B62 /* Frameworks */ = {
@@ -282,23 +234,6 @@
 			productReference = A52CFE83208AD2AD000D4188 /* ObjectiveCAppCollectionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A5A0BBEC208AECFB00C55DC7 /* FJMapDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5A0BC02208AECFC00C55DC7 /* Build configuration list for PBXNativeTarget "FJMapDemo" */;
-			buildPhases = (
-				A5A0BBE9208AECFB00C55DC7 /* Sources */,
-				A5A0BBEA208AECFB00C55DC7 /* Frameworks */,
-				A5A0BBEB208AECFB00C55DC7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FJMapDemo;
-			productName = FJMapDemo;
-			productReference = A5A0BBED208AECFB00C55DC7 /* FJMapDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -319,17 +254,6 @@
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = A52CFE5F208AD2AB000D4188;
 					};
-					A5A0BBEC208AECFB00C55DC7 = {
-						CreatedOnToolsVersion = 9.3;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 0;
-							};
-							com.apple.Maps.iOS = {
-								enabled = 1;
-							};
-						};
-					};
 				};
 			};
 			buildConfigurationList = A52CFE5B208AD2AB000D4188 /* Build configuration list for PBXProject "ObjectiveCAppCollection" */;
@@ -348,7 +272,6 @@
 				A52CFE5F208AD2AB000D4188 /* ObjectiveCAppCollection */,
 				A52CFE77208AD2AD000D4188 /* ObjectiveCAppCollectionTests */,
 				A52CFE82208AD2AD000D4188 /* ObjectiveCAppCollectionUITests */,
-				A5A0BBEC208AECFB00C55DC7 /* FJMapDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -375,16 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5A0BBEB208AECFB00C55DC7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A0BBFC208AECFC00C55DC7 /* LaunchScreen.storyboard in Resources */,
-				A5A0BBF9208AECFC00C55DC7 /* Assets.xcassets in Resources */,
-				A5A0BBF7208AECFB00C55DC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,17 +405,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5A0BBE9208AECFB00C55DC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A0BBF4208AECFB00C55DC7 /* ViewController.m in Sources */,
-				A5A0BBFF208AECFC00C55DC7 /* main.m in Sources */,
-				A5A0BC05208AEDAF00C55DC7 /* FJMKAnnotation.m in Sources */,
-				A5A0BBF1208AECFB00C55DC7 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -531,22 +433,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A52CFE6F208AD2AD000D4188 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		A5A0BBF5208AECFB00C55DC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A0BBF6208AECFB00C55DC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A5A0BBFA208AECFC00C55DC7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A0BBFB208AECFC00C55DC7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -778,42 +664,6 @@
 			};
 			name = Release;
 		};
-		A5A0BC00208AECFC00C55DC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2FWNJCD9X7;
-				INFOPLIST_FILE = FJMapDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bear.FJMapDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A5A0BC01208AECFC00C55DC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2FWNJCD9X7;
-				INFOPLIST_FILE = FJMapDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bear.FJMapDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -849,15 +699,6 @@
 			buildConfigurations = (
 				A52CFE93208AD2AD000D4188 /* Debug */,
 				A52CFE94208AD2AD000D4188 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5A0BC02208AECFC00C55DC7 /* Build configuration list for PBXNativeTarget "FJMapDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5A0BC00208AECFC00C55DC7 /* Debug */,
-				A5A0BC01208AECFC00C55DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

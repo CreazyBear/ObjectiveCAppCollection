@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  Habit
+//
+//  Created by 熊伟 on 2017/10/20.
+//  Copyright © 2017年 Bear. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "Common.h"
+
+#import "BEARDatabaseManager.h"
+#import "BEARHabitData+CoreDataClass.h"
+#import "BEARHabitItem+CoreDataClass.h"
+#import "BEARSandBoxManager.h"
+
+
+#import "BEARTextField.h"
+#import "NSString+BEARExtension.h"
+#import <FJCommon/NSData+FJExtension.h>
+#import <FJCommon/FJMacroSingleInstance.h>
+#import <FJCommon/FJMacroCommon.h>
+#import <NSString+FJExtension.h>
+#import <NSData+FJExtension.h>
+#import <NSDate+Utilities.h>
+
+#import <TSMessage.h>
+#import <YYText.h>
+#import <MWPhotoBrowser.h>
+#import <TZImagePickerController.h>
+#import <YYModel.h>
+#endif /* PrefixHeader_pch */

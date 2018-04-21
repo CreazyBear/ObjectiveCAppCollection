@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62E0124AEAECDF0055813DDC /* libPods-FJMapDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594FD30F166D4C9755E72039 /* libPods-FJMapDemo.a */; };
+		A508DA14208AFE51008EDA08 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A508DA13208AFE51008EDA08 /* MapKit.framework */; };
+		A51E9BDC208AFD60001BABE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E9BDB208AFD60001BABE0 /* AppDelegate.m */; };
+		A51E9BDF208AFD60001BABE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E9BDE208AFD60001BABE0 /* ViewController.m */; };
+		A51E9BE2208AFD60001BABE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51E9BE0208AFD60001BABE0 /* Main.storyboard */; };
+		A51E9BE4208AFD61001BABE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51E9BE3208AFD61001BABE0 /* Assets.xcassets */; };
+		A51E9BE7208AFD61001BABE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51E9BE5208AFD61001BABE0 /* LaunchScreen.storyboard */; };
+		A51E9BEA208AFD61001BABE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E9BE9208AFD61001BABE0 /* main.m */; };
+		A51E9BF2208AFDA9001BABE0 /* FJMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E9BF0208AFDA9001BABE0 /* FJMKAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C583FF9D2B49D4DF132AD85 /* Pods-FJMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJMapDemo.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-FJMapDemo/Pods-FJMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		594FD30F166D4C9755E72039 /* libPods-FJMapDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJMapDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A508DA13208AFE51008EDA08 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A51E9BD7208AFD60001BABE0 /* FJMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51E9BDA208AFD60001BABE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A51E9BDB208AFD60001BABE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A51E9BDD208AFD60001BABE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A51E9BDE208AFD60001BABE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A51E9BE1208AFD60001BABE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A51E9BE3208AFD61001BABE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51E9BE6208AFD61001BABE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A51E9BE8208AFD61001BABE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51E9BE9208AFD61001BABE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A51E9BF0208AFDA9001BABE0 /* FJMKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJMKAnnotation.m; sourceTree = "<group>"; };
+		A51E9BF1208AFDA9001BABE0 /* FJMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJMKAnnotation.h; sourceTree = "<group>"; };
+		FB7745A937EFC359AF5AD51C /* Pods-FJMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJMapDemo.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-FJMapDemo/Pods-FJMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51E9BD4208AFD60001BABE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A508DA14208AFE51008EDA08 /* MapKit.framework in Frameworks */,
+				62E0124AEAECDF0055813DDC /* libPods-FJMapDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECEDFE7BDE0434851943BA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7745A937EFC359AF5AD51C /* Pods-FJMapDemo.debug.xcconfig */,
+				1C583FF9D2B49D4DF132AD85 /* Pods-FJMapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A51E9BCE208AFD60001BABE0 = {
+			isa = PBXGroup;
+			children = (
+				A51E9BD9208AFD60001BABE0 /* FJMapDemo */,
+				A51E9BD8208AFD60001BABE0 /* Products */,
+				9ECEDFE7BDE0434851943BA9 /* Pods */,
+				A67148307B720C7FBCC30B85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A51E9BD8208AFD60001BABE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51E9BD7208AFD60001BABE0 /* FJMapDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51E9BD9208AFD60001BABE0 /* FJMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A51E9BF1208AFDA9001BABE0 /* FJMKAnnotation.h */,
+				A51E9BF0208AFDA9001BABE0 /* FJMKAnnotation.m */,
+				A51E9BDA208AFD60001BABE0 /* AppDelegate.h */,
+				A51E9BDB208AFD60001BABE0 /* AppDelegate.m */,
+				A51E9BDD208AFD60001BABE0 /* ViewController.h */,
+				A51E9BDE208AFD60001BABE0 /* ViewController.m */,
+				A51E9BE0208AFD60001BABE0 /* Main.storyboard */,
+				A51E9BE3208AFD61001BABE0 /* Assets.xcassets */,
+				A51E9BE5208AFD61001BABE0 /* LaunchScreen.storyboard */,
+				A51E9BE8208AFD61001BABE0 /* Info.plist */,
+				A51E9BE9208AFD61001BABE0 /* main.m */,
+			);
+			path = FJMapDemo;
+			sourceTree = "<group>";
+		};
+		A67148307B720C7FBCC30B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A508DA13208AFE51008EDA08 /* MapKit.framework */,
+				594FD30F166D4C9755E72039 /* libPods-FJMapDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51E9BD6208AFD60001BABE0 /* FJMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51E9BED208AFD61001BABE0 /* Build configuration list for PBXNativeTarget "FJMapDemo" */;
+			buildPhases = (
+				0853ECC04F21E13DF1082C67 /* [CP] Check Pods Manifest.lock */,
+				A51E9BD3208AFD60001BABE0 /* Sources */,
+				A51E9BD4208AFD60001BABE0 /* Frameworks */,
+				A51E9BD5208AFD60001BABE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJMapDemo;
+			productName = FJMapDemo;
+			productReference = A51E9BD7208AFD60001BABE0 /* FJMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51E9BCF208AFD60001BABE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "熊伟";
+				TargetAttributes = {
+					A51E9BD6208AFD60001BABE0 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A51E9BD2208AFD60001BABE0 /* Build configuration list for PBXProject "FJMapDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A51E9BCE208AFD60001BABE0;
+			productRefGroup = A51E9BD8208AFD60001BABE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51E9BD6208AFD60001BABE0 /* FJMapDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51E9BD5208AFD60001BABE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51E9BE7208AFD61001BABE0 /* LaunchScreen.storyboard in Resources */,
+				A51E9BE4208AFD61001BABE0 /* Assets.xcassets in Resources */,
+				A51E9BE2208AFD60001BABE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0853ECC04F21E13DF1082C67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FJMapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51E9BD3208AFD60001BABE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51E9BDF208AFD60001BABE0 /* ViewController.m in Sources */,
+				A51E9BEA208AFD61001BABE0 /* main.m in Sources */,
+				A51E9BF2208AFDA9001BABE0 /* FJMKAnnotation.m in Sources */,
+				A51E9BDC208AFD60001BABE0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A51E9BE0208AFD60001BABE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51E9BE1208AFD60001BABE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A51E9BE5208AFD61001BABE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51E9BE6208AFD61001BABE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A51E9BEB208AFD61001BABE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A51E9BEC208AFD61001BABE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51E9BEE208AFD61001BABE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7745A937EFC359AF5AD51C /* Pods-FJMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = FJMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bear.FJMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51E9BEF208AFD61001BABE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C583FF9D2B49D4DF132AD85 /* Pods-FJMapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = FJMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bear.FJMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51E9BD2208AFD60001BABE0 /* Build configuration list for PBXProject "FJMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51E9BEB208AFD61001BABE0 /* Debug */,
+				A51E9BEC208AFD61001BABE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51E9BED208AFD61001BABE0 /* Build configuration list for PBXNativeTarget "FJMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51E9BEE208AFD61001BABE0 /* Debug */,
+				A51E9BEF208AFD61001BABE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51E9BCF208AFD60001BABE0 /* Project object */;
+}
