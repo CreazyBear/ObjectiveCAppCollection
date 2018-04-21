@@ -1,5 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
+$repos = ENV["HOME"]+'/.cocoapods/repos/'
 
 
 workspace 'ObjectiveCAppCollection'
@@ -8,7 +9,7 @@ target 'ObjectiveCAppCollection' do
   # use_frameworks!
 
   # Pods for ObjectiveCAppCollection
-  pod 'FJCommon', :git => 'https://github.com/WalterCreazyBear/FJCommon.git'
+  pod 'FJCommon', :path=>"#{$repos}FJCommon"
 
 
 
@@ -25,6 +26,6 @@ target 'ObjectiveCAppCollection' do
 end
 
 
-target 'FJCommon' do
-    project "./FJRepoTarget/FJCommon/FJCommon.xcodeproj"
+target 'FJCommonProject' do
+    project "#{$repos}FJCommon/FJCommonProject/FJCommonProject.xcodeproj"
 end

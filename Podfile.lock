@@ -2,20 +2,15 @@ PODS:
   - FJCommon (0.1.0)
 
 DEPENDENCIES:
-  - FJCommon (from `https://github.com/WalterCreazyBear/FJCommon.git`)
+  - FJCommon (from `/Users/xiongwei/.cocoapods/repos/FJCommon`)
 
 EXTERNAL SOURCES:
   FJCommon:
-    :git: https://github.com/WalterCreazyBear/FJCommon.git
-
-CHECKOUT OPTIONS:
-  FJCommon:
-    :commit: 67c45efafb1e4a20c19cdc403452142aba2a2d7a
-    :git: https://github.com/WalterCreazyBear/FJCommon.git
+    :path: "/Users/xiongwei/.cocoapods/repos/FJCommon"
 
 SPEC CHECKSUMS:
-  FJCommon: ab6529c4d0de0dfa14511f21e898497123b7265b
+  FJCommon: f33c01e85ef256b46cbc557ccb97d749bacae5f5
 
-PODFILE CHECKSUM: 6f412be5104f43cfce03b483c2475be3f2c8f06c
+PODFILE CHECKSUM: 244b442a6b8e83b2f29c6a52c4dd27d16737e44a
 
 COCOAPODS: 1.5.0

@@ -10,4 +10,7 @@
    <FileRef
       location = "group:FJRepoTarget/FJCommon/FJCommon.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../../../../../.cocoapods/repos/FJCommon/FJCommonProject/FJCommonProject.xcodeproj">
+   </FileRef>
 </Workspace>
