@@ -1,0 +1,21 @@
+PODS:
+  - FJCommon (0.1.0)
+
+DEPENDENCIES:
+  - FJCommon (from `https://github.com/WalterCreazyBear/FJCommon.git`)
+
+EXTERNAL SOURCES:
+  FJCommon:
+    :git: https://github.com/WalterCreazyBear/FJCommon.git
+
+CHECKOUT OPTIONS:
+  FJCommon:
+    :commit: 67c45efafb1e4a20c19cdc403452142aba2a2d7a
+    :git: https://github.com/WalterCreazyBear/FJCommon.git
+
+SPEC CHECKSUMS:
+  FJCommon: ab6529c4d0de0dfa14511f21e898497123b7265b
+
+PODFILE CHECKSUM: 6f412be5104f43cfce03b483c2475be3f2c8f06c
+
+COCOAPODS: 1.5.0
