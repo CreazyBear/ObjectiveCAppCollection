@@ -19,4 +19,7 @@
    <FileRef
       location = "group:FJProjects/ReactiveObjeCDemo/ReactiveObjeCDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:FJProjects/FJQRScan/FJQRScan.xcodeproj">
+   </FileRef>
 </Workspace>

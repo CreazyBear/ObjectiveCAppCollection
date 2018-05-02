@@ -39,6 +39,10 @@ target 'ReactiveObjeCDemo' do
     pod "ReactiveObjC"
 end
 
+target 'FJQRScan' do
+    project "./FJProjects/FJQRScan/FJQRScan.xcodeproj"
+end
+
 
 
 target 'Habit' do
