@@ -3,6 +3,41 @@ PODS:
   - FJCommon (0.1.0)
   - FSCalendar (2.7.9)
   - HexColors (2.2.1)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - "libextobjc/NSInvocation+EXT (= 0.4.1)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.4.1)"
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
   - MBProgressHUD (0.9.2)
   - MWPhotoBrowser (2.1.2):
     - DACircularProgress (~> 2.3)
@@ -21,6 +56,7 @@ PODS:
 DEPENDENCIES:
   - FJCommon (from `/Users/xiongwei/.cocoapods/repos/FJCommon`)
   - FSCalendar
+  - libextobjc
   - MWPhotoBrowser
   - ReactiveObjC
   - TSMessages
@@ -33,6 +69,7 @@ SPEC REPOS:
     - DACircularProgress
     - FSCalendar
     - HexColors
+    - libextobjc
     - MBProgressHUD
     - MWPhotoBrowser
     - ReactiveObjC
@@ -51,6 +88,7 @@ SPEC CHECKSUMS:
   FJCommon: 4e2d8a89774df9372290ef7cbccd4b1249d75e66
   FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
@@ -60,6 +98,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 2dd577d603f81d3d4cfdb90ff3a5e622eca9596b
+PODFILE CHECKSUM: e3d394b101581450d7feb8874804258bd302bc85
 
 COCOAPODS: 1.5.0

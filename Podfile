@@ -54,4 +54,6 @@ target 'Habit' do
     pod 'MWPhotoBrowser'
     pod 'YYModel'
     pod 'FJCommon', :path=>"#{$repos}FJCommon"
+    pod 'libextobjc'
+
 end

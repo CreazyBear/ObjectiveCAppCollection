@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <libextobjc/extobjc.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    @weakify(self)
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(11 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        @strongify(self)
+        NSLog(@"%@",self);
+    });
+    
 }
 
 
